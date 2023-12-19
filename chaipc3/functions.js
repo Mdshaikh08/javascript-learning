@@ -22,4 +22,30 @@ function loginUserMsg(username = "no one"){
     
 }
 //console.log(loginUserMsg("hitesh"))
-console.log(loginUserMsg("adnan"))
+//console.log(loginUserMsg("adnan"))
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+//console.log(calculateCartPrice(200 , 300 , 400))
+
+const user = {
+    username: "adnan",
+    price : 199
+
+    
+}
+
+function handleObject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+//handleObject(user);
+
+const myNewArr = [200, 300,400]
+
+function handleArr(anyArr) {
+    return anyArr[1]
+    
+}
