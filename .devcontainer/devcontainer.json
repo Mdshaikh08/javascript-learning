@@ -10,7 +10,12 @@
 				"hiteshchoudharycode.chai-theme"
 			]
 		}
-	}
+	},
+	"emmet.includeLanguages": {
+		"typescript": "html",
+		"javascript": "html"
+	  }
+	
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
